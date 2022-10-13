@@ -1,0 +1,1233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sprits{
+    background-image: url(../Images/use/sprite.png);
+    display: inline-block;    
+    background-repeat: no-repeat;   
+}
+
+.main-cont{
+    padding: 1rem 5rem;
+    background-color: #337ab7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contrast{
+    display: flex;
+}
+
+.contrast h2{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 1rem 0 0 ;
+}
+
+.contrast span{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contrast a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 0rem .7rem;
+}
+
+.contrast a:hover{
+    color: rgb(16, 3, 90);
+}
+
+.main-socail span{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-socail a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 0rem .7rem;
+}
+
+.main-socail a:hover{
+    color: rgb(16, 3, 90);
+}
+
+.navBar{
+    padding: 0 3.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-logo{
+    width: 20.5rem;
+	height: 7.8rem;
+    background-position: -39px -21px;
+    scale: .8;
+    cursor: pointer;
+}
+
+.navBar ul{
+    display: flex;
+}
+
+.navBar ul li{
+    list-style: none;
+    margin: 3.3rem 3.4rem 0 3.4rem;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #5b5b5b;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.navBar ul li a:hover{
+    color: #337ab7;
+}
+
+.magn-logo{
+    width: 2.1rem;
+	height: 2.4rem;
+    background-position: -309px -52px;
+    margin: 2.7rem 5rem 0 0;
+    cursor: pointer;
+    scale: .9;
+}
+
+.banner-pic img{
+    width: 100%;
+}
+
+.whats-new{
+    height: 8rem;
+    width: 100%;
+    background-color: #e5e1e1;
+    display: flex;
+}
+
+.blue-box{
+    width: 34.8rem;
+    height: 100%;
+    background-color: #337ab7;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-arr{
+    width: 3rem;
+    height: 3rem;
+    background-color: #337ab7;
+    transform: rotate(45deg);
+    margin: auto 0 auto -2rem;
+}
+
+.whats-new h2{
+    font-size: 1.6rem;
+    color: #5b5b5b;
+    font-weight: 600;
+    margin: auto 0 auto 3rem;
+}
+
+.blue-box h2{
+    font-size: 3.6rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Amiri";
+    margin: 1.1rem 0 0 0;
+}
+
+.AboutDigi{
+    padding: 5rem 3rem 2rem;
+}
+
+.AboutDigi-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue-line1{
+    width: 12.6rem;
+    height: .6rem;
+    border-radius: .3rem;
+    background-color: #337ab7;
+}
+
+.AboutDigi-head h1{
+    font-size: 3.6rem;
+    color: #337ab7;
+    font-weight: 600;
+    margin: .5rem 0 0 0;
+}
+
+.design-Underl{
+    width: 38.1rem;
+	height: 1.3rem;
+    background-position: -39px -723px;
+}
+
+.AboutDigi-head h2{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3b3a3a;
+    font-weight: 500;
+    width: 105.6rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.AboutDigi-diag{
+    display: flex;
+    padding: 3rem 8rem;
+    justify-content: space-between;
+}
+
+.box-layout{
+    margin: 4rem auto;
+} 
+
+.box-layout h1{
+    font-size: 1.6rem;
+    color: #3b3a3a;
+    font-weight: 500;
+    text-align: right;
+}
+
+.mac-underline{
+    width: 26.1rem;
+    height: .1rem;
+    background-color: #5b5b5b;
+}
+
+.box-layout h2{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #3b3a3a;
+    font-weight: 400;
+    text-align: right;
+    width: 24.4rem;
+    margin: .5rem 0 0 0;
+}
+
+.Mac-icon{
+    width: 49rem;
+	height: 39.7rem;
+    background-position:  -763px -185px;
+}
+
+.righ-layout h1{
+    text-align: left;
+}
+
+.righ-layout h2{
+    text-align: left;
+}
+
+.left-layout h2{
+    margin: .5rem 0 0 1.6rem;
+}
+
+.Infocus{
+    background-image: url(../images/use/InFocus.jpg);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem;
+}
+
+.blue-arr2{
+    width: 8rem;
+    height: .3rem;
+    border-radius: .1rem;
+    background-color: #337ab7;
+}
+
+.Infocus h1{
+    font-size: 3.6rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.design-Under2{
+    width: 22.7rem;
+	height: 1.3rem;
+    background-position: -106px -763px;
+}
+
+.Infocus-elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem 0 0 0;
+}
+
+.Infocus-elem i{
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.cowin{
+    width: 12.1rem;
+	height: 12rem;
+    background-position: -1099px -24px;
+}
+
+.Arogya{
+    width: 12.1rem;
+	height: 12rem;
+    background-position: -938px -24px;
+}
+
+.umang{
+    width: 12.1rem;
+	height: 12rem;
+    background-position: -777px -24px;
+}
+
+.Events{
+    display: flex;
+    background-color: #f1f1f1;
+    height: 35rem;
+    justify-content: space-between;
+}
+
+.Quiz-ebooks{
+    background-image: url(../images/use/Events.png);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    padding: 8rem 12rem 0 8rem;
+}
+
+.Quiz-wrap{
+    width: 136px;
+    height: 138px;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ebook-wrap{
+    width: 136px;
+    height: 138px;
+    background-color: #fff;
+    border-radius: 0 3rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch{
+    width: 4rem;
+	height: 4rem;
+    margin: 0 0 1rem 0;
+    background-position: -398px -45px;
+}
+
+.ebook{
+    width: 3.5rem;
+	height: 4rem;
+    margin: 0 0 1rem 0;
+    background-position: -490px -42px;
+}
+
+.Quiz-wrap h2{
+    font-size: 1.6rem;
+    color: #5b5b5b;
+    font-weight: 700;   
+}
+
+.ebook-wrap h2{
+    font-size: 1.6rem;
+    color: #5b5b5b;
+    font-weight: 700;   
+}
+
+.Events-bTn{
+    margin: 5rem 0 0 -4rem;
+} 
+
+.Events-bTn h1{
+    font-size: 3rem;
+    color: #337ab7;
+    font-weight: 700;
+}
+
+.blue-arr3{
+    width: 5.1rem;
+    height: .3rem;
+    border-radius: .1rem;
+    background-color: #337ab7;
+}
+
+.Events-bTn h2{
+    font-size: 1.4rem;
+    color: #5b5b5b;
+    font-weight: 500;
+    margin:  4rem 0 0 0;
+}
+
+.Events-bTn button{
+    width: 6.7rem;
+    height: 2.3rem;
+    border-radius: .6rem;
+    background-color: #337ab7;
+    font-size: 1.1rem;
+    color: #fffcfc;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+    border: 0;
+    margin: 1rem 0 0 0;
+}
+
+.yt-links{
+    margin: 0 2rem 0 0;
+}
+
+.video1{
+    margin: 3.5rem;
+}
+
+.video1 iframe{
+    border-radius: 0 3rem;
+}
+
+.collab{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collab-lay{
+    width: 19rem;
+    height: 9.2rem;
+    background-color: #fff;
+    border: 1px solid #3b3737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.datagov{
+    width: 17rem;
+	height: 8rem;
+    background-position: -20px -604px
+}
+
+.electr{
+    width: 15rem;
+	height: 7.2rem;
+    background-position: -267px -608px;
+}
+
+.negd{
+    width: 13rem;
+	height: 8rem;
+    background-position: -511px -604px;
+} 
+
+.digil{
+    width: 7rem;
+	height: 8rem;
+    background-position: -779px -604px;
+}
+
+.inidagov{
+    width: 17rem;
+	height: 8rem;
+    background-position: -969px -604px;
+}
+
+.endbar-divider{
+    background-color: #8d8888;
+    height: 1.2rem;
+}
+
+.endbar-contx{
+    display: flex;
+}
+
+.useful-links{
+    height: 40rem;
+    width: 44rem;
+    background-color: #3e3c3c;
+    padding: 4rem 9rem;
+    box-sizing: border-box;
+}
+
+.web-info{
+    height: 40rem;
+    width: 44rem;
+    background-color: #615656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Social-media{
+    height: 40rem;
+    width: 43.9rem;
+    background-color: #3e3c3c;
+    padding: 4rem 9rem;
+    box-sizing: border-box;
+}
+
+.useful-links h1{
+    font-size: 1.8rem;
+    color: #817d7d;
+    font-weight: 700;
+}
+
+.doub-underline{
+    display: flex;
+    margin: 0 0 4rem 0;
+}
+
+.blue-ray{
+    width: 2.7rem;
+    height: .2rem;
+    background-color: #337ab7;
+    margin: 0 .1rem 0 0;
+}
+
+.gray-ray{
+    width: 5.7rem;
+    height: .2rem;
+    background-color: #827e7e;
+}
+
+.useful-links a{
+    font-size: 1.4rem;
+    color: #d4d1d1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.white-ray{
+    width: 25rem;
+    height: .1rem;
+    background-color: #827e7e;
+    margin: .2rem 0 1rem;
+}
+
+.Social-media h1{
+    font-size: 1.8rem;
+    color: #337ab7;
+    font-weight: 700;
+}
+
+.Social-media a{
+    font-size: 1.4rem;
+    color: #d4d1d1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.useful-links a:hover{
+    color: #337ab7;
+}
+
+.Social-media a:hover{
+    color: #337ab7;
+}
+
+.web-info h1{
+    font-size: 1.8rem;
+    color: #817d7d;
+    font-weight: 700;
+    margin: 4rem 0 0 0;
+}
+
+.gray-ray2{
+    width: 20rem;
+    height: .2rem;
+    background-color: #827e7e;
+}
+
+.web-info h2{
+    font-size: 1.2rem;
+    color: #d4d1d1;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.web-info h3{
+    width: 20rem;
+    font-size: 1.2rem;
+    color: #d4d1d1;
+    font-weight: 500;
+    text-align: center;
+    margin: .5rem 0;
+    text-align: left;
+}
+
+.endbar-license{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+.endbar-license h1{
+    width: 110rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    margin: 1.5rem 0 1rem 0;
+    line-height: 1.4rem;
+}
+
+
+.endbar-license h2{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+}
+
+.menu-btn{
+    display: none;
+}
+
+span{
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    cursor: pointer;
+    position: absolute;
+    left: 85%;
+    top: 3.5%;
+}
+
+@media (max-width : 1280px){
+    .contrast h2 {
+        font-size: 1.3rem;
+        margin: 0 1rem 0 0;
+    }
+
+    .contrast a {
+        font-size: 1.3rem;
+        margin: 0rem .7rem;
+    }
+
+    .main-socail a {
+        font-size: 1.3rem;
+    }
+
+    .navBar {
+        padding: 0 1.8rem;
+    }
+
+    .web-logo{
+        scale: .7;
+    }
+
+    .navBar ul li a {
+        font-size: 1.2rem;
+    }
+
+    .navBar ul li {
+        margin: 3.3rem 2.7rem 0;
+    }
+
+    .magn-logo {
+        margin: 2.8rem 4rem 0 0;
+        scale: .8;
+    }
+    
+    .whats-new h2 {
+        font-size: 1.3rem;
+        color: #5b5b5b;
+        font-weight: 600;
+        margin: auto 0 auto 3rem;
+    }
+    
+    .blue-box h2 {
+        font-size: 2.4rem;
+        margin: 2rem 0 0 0;
+        color: #fff;
+    }
+
+    .blue-line1 {
+        width: 7rem;
+        height: .4rem;
+    }
+
+    .AboutDigi-head h1 {
+        font-size: 2.8rem;
+        color: #337ab7;
+        font-weight: 600;
+        margin: .5rem 0 0 0;
+    }
+
+    .design-Underl {
+        scale: .9;    
+    }
+
+    .AboutDigi {
+        padding: 5rem 0 0;
+    }
+
+    .AboutDigi-head h2 {
+        font-size: 1.2rem;
+        width: 80rem;
+        margin: 2.5rem 0;
+    }
+
+    .AboutDigi-diag {
+        display: flex;
+        padding: 0;
+        justify-content: space-evenly;
+        margin: -2rem 0 0 0;
+    }
+
+    .Mac-icon {
+        scale: .6;
+    }
+
+    .left-aboutD{
+        padding: 2.8rem 0;
+        margin: 0 -15rem 0 0;
+    }
+
+    .right-aboutD{
+        padding: 2.8rem 0;
+        margin: 0 0 0 -15rem;
+    }
+
+    .Infocus h1 {
+        font-size: 2.8rem;
+        margin: .2rem 0 0 0;
+    }
+
+    .Quiz-ebooks {
+        padding: 10rem 12rem 0 8rem;
+    }
+
+    .Quiz-wrap {
+        width: 9.6rem;
+        height: 9rem;
+        margin: 2rem;
+        border-radius: 0 2rem;
+    }
+
+    .ebook-wrap{
+        width: 9.6rem;
+        height: 9rem;
+        margin: 2rem;
+        border-radius: 0 2rem;
+    }
+
+    .watch {
+        margin: 0 0 .2rem 0;
+        scale: .7;
+    }
+
+    .ebook {
+        margin: 0 0 .2rem 0;
+        scale: .7;
+    }
+
+    .Quiz-wrap h2 {
+        font-size: 1.3rem;
+    }
+
+    .ebook-wrap h2{
+        font-size: 1.3rem;
+    }
+
+    .Events-bTn h1 {
+        font-size: 2.6rem;
+    }
+
+    .Events-bTn h2 {
+        font-size: 1.4rem;
+        margin: 2.5rem 0 0 0;
+    }
+
+    .Events-bTn button {
+        margin: 1rem 0 0 0;
+    }
+
+    .useful-links {
+        width: 44rem;
+        padding: 4rem 3rem;
+    }
+
+    .Social-media {        
+        padding: 4rem 3rem;
+    }
+
+}
+
+@media (max-width : 1045px){
+    .contrast h2 {
+        font-size: 1.1rem;
+        margin: 0 1rem 0 0;
+    }
+
+    .contrast a {
+        font-size: 1.1rem;
+        margin: 0rem .7rem;
+    }
+
+    .main-socail a {
+        font-size: 1.1rem;
+    }
+
+    .main-cont {
+        padding: 1.2rem 1rem .5rem 1rem;
+        justify-content: space-between;
+    }
+
+    .navBar {
+        padding: 0;
+    }
+
+    .web-logo{
+        scale: .5;
+        margin:  0 0 0 -3rem;
+    }
+    
+    .navBar ul {
+        margin: 0 0 0 -5rem;
+    }
+
+    .navBar ul li a {
+        font-size: 1rem;
+    }
+
+    .navBar ul li {
+        margin: 3.3rem 1.6rem 0;
+    }
+
+    .magn-logo {
+        margin: 2.8rem 4rem 0 0;
+        scale: .8;
+    }
+
+    .blue-box h2 {
+        font-size: 2rem;
+        margin: 2.4rem 0 0 0;
+    }
+
+    .blue-box {
+        width: 22.8rem;       
+    }
+
+    .whats-new h2 {
+        font-size: 1.1rem;
+    }
+
+    .Mac-icon {
+        scale: .5;
+    }
+
+    .box-layout h1 {
+        font-size: 1.2rem;
+    }
+
+    .mac-underline {
+        width: 16.1rem;
+    }
+
+    .left-layout{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .box-layout h2 {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        text-align: left;
+        width: 17rem;
+        margin: .5rem 0 0 0;
+    }
+
+    .left-aboutD {
+        padding: 4rem 0;
+        margin: 0 -14rem 0 0;
+    }
+
+    .right-aboutD {
+        padding: 4rem 0;
+        margin: 0 0 0 -14rem;
+    }
+
+    .AboutDigi-head h2 {
+        font-size: 1.1rem;
+        width: 70rem;
+        margin: 2.5rem 0;
+    }
+
+    .AboutDigi-diag {
+        margin: -5rem 0 0 0;
+    }
+
+    .cowin {
+        scale: .8;   
+    }
+
+    .Arogya {
+        scale: .8;
+    }
+
+    .umang {
+        scale: .8;
+    }
+
+    .yt-links{
+        display: none;
+    }
+
+    .Events-bTn {
+        margin: 10rem 0 0 12rem;
+    }
+
+    .Events {
+        justify-content: start;
+    }
+
+    .datagov {
+       scale: .7;
+    }
+
+    .electr {
+        scale: .7;
+    }
+
+    .negd {
+        scale: .7;
+    }
+
+    .digil {
+        scale: .7;
+    }
+    
+    .inidagov {
+        scale: .7;
+    }
+
+    .collab-lay {
+        width: 15rem;
+        height: 8rem;
+    }    
+
+    .useful-links a {
+        font-size: 1.2rem;
+    }
+
+    .white-ray {
+        width: 16rem;
+    }
+
+    .Social-media a {
+        font-size: 1.2rem;
+    }
+    
+    .useful-links h1 {
+        font-size: 1.6rem;
+    }
+
+    .doub-underline {
+        margin: 0 0 2.5rem 0;
+    }
+
+    .web-info h1 {
+        font-size: 1.6rem;
+    }
+
+    .web-info {
+        padding: 0 2rem;
+    }
+
+    .gray-ray2 {
+        width: 20rem;
+    }
+
+    .web-info h2 {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    .web-info h3 {
+        font-size: 1.1rem;
+    }
+
+    .endbar-license h1 {
+        width: 70rem;
+        font-size: 1rem;
+        margin: 1.8rem 0 1rem 0;
+    }
+
+}
+
+@media (max-width : 750px){
+    
+    .main-cont{
+        display: none;
+    }
+
+    .magn-logo{
+        display: none;
+    }
+
+    .navBar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #6d97be;
+    }
+
+    .web-logo {
+        scale: .6;
+        margin: 0;
+    }
+    
+    .navBar ul {
+        background-color: #cec9cb;
+        flex-direction: column;
+        border-radius: 2rem;
+        padding: 0 5rem 1.5rem 5rem;
+        margin: 0 0 1.2rem 0;
+        display: none;
+    }
+    
+    .navBar ul li {
+        margin: 2rem 0 0 0;
+        text-align: center;
+    }
+
+    .navBar ul li a {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .menu-btn{
+        display: flex;
+    }
+
+    .blue-arr {
+       display: none;
+    }
+
+    .blue-box{
+        display: none;
+    }
+
+    .whats-new {
+        height: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whats-new h2 {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+        max-width: 92%;
+    }
+
+    .AboutDigi {
+        padding: 5rem 0 0;
+    }
+
+    .blue-line1 {
+        width: 5rem;
+        height: .3rem;
+    }
+
+    .AboutDigi-head h1 {
+        font-size: 2.4rem;
+    }
+
+    .AboutDigi-head h2 {
+        font-size: 1.1rem;
+        width: 85%;
+        margin: 2rem 0;
+        line-height: 1.6rem;
+    }
+
+    .design-Underl {
+        scale: .8;
+    }
+
+    .AboutDigi-diag {
+        flex-direction: column;
+    }
+
+    .left-aboutD {
+        padding: 3rem 0;
+        margin: 2rem 0 0 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-layout {
+        margin: 1.5rem auto;
+    }
+
+    .aboutD-mac{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: -10rem 0 0 0;
+    }
+
+    .right-aboutD{
+        padding: 3rem 0;
+        margin: -10rem 0 0 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Infocus {
+        padding: 5rem 8rem;
+    }
+
+    .Quiz-ebooks {
+        display: none;
+    }
+
+    .Events-bTn {
+        margin: 0 auto;
+    }
+
+    .Events {
+        flex-direction: column;
+        padding: 4rem 0 0 0;
+        height: auto;
+    }
+
+    .yt-links{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video1 {
+        margin: 1rem auto;
+    }
+
+    .video1 iframe{
+        width: 23rem;
+    }
+  
+    .video1 iframe {
+        border-radius: 0 2rem;
+    }
+    
+    .collab {
+        display: flex;
+        flex-wrap: wrap;
+        margin: .8rem 0;
+    }
+
+    .collab-lay {
+        margin: .2rem 0;
+    }
+
+    .endbar-contx {
+        flex-direction: column;
+    }
+
+    .useful-links {
+        width: 100%;
+        padding: 4rem 3rem 2rem 3rem;
+        height: auto;
+    }
+
+    .web-info{
+        width: 100%;
+        height: auto;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .Social-media{
+        width: 100%;
+        height: auto;
+    }
+
+    .web-info h1 {
+        margin: 3rem 0 0 0;
+    }
+
+    .endbar-license h1 {
+        display: none;
+    }
+
+    .endbar-license h2 {
+        font-size: 1rem;
+        margin: .8rem 0 1rem 0;
+        text-align: center;
+        line-height: 1.4rem;
+    }
+
+
+}
