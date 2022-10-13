@@ -16,6 +16,31 @@ body{
     padding: 0;
 }
 
+:root{
+    --white: #fff;
+    --blueMain: #337ab7;
+    --fontGrey: #5b5b5b;
+    --whatsNew: #e5e1e1;
+    --brown: #3b3a3a;
+    --events: #f1f1f1;
+    --endbarDiv: #8d8888;
+    --collabLay: #3b3737;
+    --darkbrown: #3e3c3c;
+    --lightgrey: #817d7d;
+    --webInfo: #615656;
+    --whiteGray: #827e7e; 
+    --whiteHead: #d4d1d1;
+    --endbarL: #1c1c1c;
+    --black: #000;
+    --nevbarRespo: #6d97be;
+    --nevbarUL: #cec9cb;
+
+    --normal: 400;
+    --semibold: 500;
+    --almBold: 600;
+    --bold: 700;
+}
+
 .container-fluid{
     width: 100%;
     margin-left: auto;
@@ -37,7 +62,7 @@ body{
 
 .main-cont{
     padding: 1rem 5rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
     display: flex;
     justify-content: space-between;
 }
@@ -48,22 +73,22 @@ body{
 
 .contrast h2{
     font-size: 1.4rem;
-    color: #fff;
-    font-weight: 500;
+    color: var(--white);
+    font-weight: var(--semibold);
     margin: 0 1rem 0 0 ;
 }
 
-.contrast span{
+.contrast h3{
     font-size: 1.4rem;
-    color: #fff;
-    font-weight: 500;
+    color: var(--white);
+    font-weight: var(--semibold);
 }
 
 .contrast a{
     text-decoration: none;
     font-size: 1.4rem;
-    color: #fff;
-    font-weight: 500;
+    color: var(--white);
+    font-weight: var(--semibold);
     margin: 0rem .7rem;
 }
 
@@ -73,15 +98,15 @@ body{
 
 .main-socail span{
     font-size: 1.4rem;
-    color: #fff;
-    font-weight: 500;
+    color: var(--white);
+    font-weight: var(--semibold);
 }
 
 .main-socail a{
     text-decoration: none;
     font-size: 1.4rem;
-    color: #fff;
-    font-weight: 500;
+    color: var(--white);
+    font-weight: var(--semibold);
     margin: 0rem .7rem;
 }
 
@@ -115,13 +140,13 @@ body{
 .navBar ul li a{
     text-decoration: none;
     font-size: 1.4rem;
-    color: #5b5b5b;
-    font-weight: 600;
+    color: var(--fontGrey);
+    font-weight: var(--almBold);
     font-family: "Poppins";
 }
 
 .navBar ul li a:hover{
-    color: #337ab7;
+    color: var(--blueMain);
 }
 
 .magn-logo{
@@ -140,14 +165,14 @@ body{
 .whats-new{
     height: 8rem;
     width: 100%;
-    background-color: #e5e1e1;
+    background-color: var(--whatsNew);
     display: flex;
 }
 
 .blue-box{
     width: 34.8rem;
     height: 100%;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
     display: flex;
     justify-content: center;
 }
@@ -155,23 +180,23 @@ body{
 .blue-arr{
     width: 3rem;
     height: 3rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
     transform: rotate(45deg);
     margin: auto 0 auto -2rem;
 }
 
 .whats-new h2{
     font-size: 1.6rem;
-    color: #5b5b5b;
-    font-weight: 600;
+    color: var(--fontGrey);
+    font-weight: var(--almBold);
     margin: auto 0 auto 3rem;
 }
 
 .blue-box h2{
     font-size: 3.6rem;
     letter-spacing: .1rem;
-    color: #fff;
-    font-weight: 700;
+    color: var(--white);
+    font-weight: var(--bold);
     font-family: "Amiri";
     margin: 1.1rem 0 0 0;
 }
@@ -191,13 +216,13 @@ body{
     width: 12.6rem;
     height: .6rem;
     border-radius: .3rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
 }
 
 .AboutDigi-head h1{
     font-size: 3.6rem;
-    color: #337ab7;
-    font-weight: 600;
+    color: var(--blueMain);
+    font-weight: var(--almBold);
     margin: .5rem 0 0 0;
 }
 
@@ -210,8 +235,8 @@ body{
 .AboutDigi-head h2{
     font-size: 1.4rem;
     line-height: 1.8rem;
-    color: #3b3a3a;
-    font-weight: 500;
+    color: var(--brown);
+    font-weight: var(--semibold);
     width: 105.6rem;
     text-align: center;
     margin: 4rem 0;
@@ -229,22 +254,22 @@ body{
 
 .box-layout h1{
     font-size: 1.6rem;
-    color: #3b3a3a;
-    font-weight: 500;
+    color: var(--brown);
+    font-weight: var(--semibold);
     text-align: right;
 }
 
 .mac-underline{
     width: 26.1rem;
     height: .1rem;
-    background-color: #5b5b5b;
+    background-color: var(--fontGrey);
 }
 
 .box-layout h2{
     font-size: 1.2rem;
     line-height: 1.8rem;
-    color: #3b3a3a;
-    font-weight: 400;
+    color: var(--brown);
+    font-weight: var(--normal);
     text-align: right;
     width: 24.4rem;
     margin: .5rem 0 0 0;
@@ -269,7 +294,7 @@ body{
 }
 
 .Infocus{
-    background-image: url(../images/use/InFocus.jpg);    
+    background-image: url(../Images/use/InFocus.jpg);    
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     display: flex;
@@ -282,13 +307,13 @@ body{
     width: 8rem;
     height: .3rem;
     border-radius: .1rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
 }
 
 .Infocus h1{
     font-size: 3.6rem;
-    color: #fff;
-    font-weight: 600;
+    color: var(--white);
+    font-weight: var(--almBold);
     text-align: center;
 }
 
@@ -331,13 +356,13 @@ body{
 
 .Events{
     display: flex;
-    background-color: #f1f1f1;
+    background-color: var(--events);
     height: 35rem;
     justify-content: space-between;
 }
 
 .Quiz-ebooks{
-    background-image: url(../images/use/Events.png);    
+    background-image: url(../Images/use/Events.png);    
     background-repeat: no-repeat;
     background-size: 100% 100%; 
     display: flex;
@@ -347,7 +372,7 @@ body{
 .Quiz-wrap{
     width: 136px;
     height: 138px;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 2rem;
     border-radius: 0 3rem;
     display: flex;
@@ -359,7 +384,7 @@ body{
 .ebook-wrap{
     width: 136px;
     height: 138px;
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 0 3rem;
     margin: 2rem;
     display: flex;
@@ -384,14 +409,14 @@ body{
 
 .Quiz-wrap h2{
     font-size: 1.6rem;
-    color: #5b5b5b;
-    font-weight: 700;   
+    color: var(--fontGrey);
+    font-weight: var(--bold);   
 }
 
 .ebook-wrap h2{
     font-size: 1.6rem;
-    color: #5b5b5b;
-    font-weight: 700;   
+    color: var(--fontGrey);
+    font-weight: var(--bold);   
 }
 
 .Events-bTn{
@@ -400,21 +425,21 @@ body{
 
 .Events-bTn h1{
     font-size: 3rem;
-    color: #337ab7;
-    font-weight: 700;
+    color: var(--blueMain);
+    font-weight: var(--bold);
 }
 
 .blue-arr3{
     width: 5.1rem;
     height: .3rem;
     border-radius: .1rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
 }
 
 .Events-bTn h2{
     font-size: 1.4rem;
-    color: #5b5b5b;
-    font-weight: 500;
+    color: var(--fontGrey);
+    font-weight: var(--semibold);
     margin:  4rem 0 0 0;
 }
 
@@ -422,10 +447,10 @@ body{
     width: 6.7rem;
     height: 2.3rem;
     border-radius: .6rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
     font-size: 1.1rem;
-    color: #fffcfc;
-    font-weight: 500;
+    color: var(--white);
+    font-weight: var(--semibold);
     font-family: "Poppins";
     text-align: center;
     border: 0;
@@ -452,8 +477,8 @@ body{
 .collab-lay{
     width: 19rem;
     height: 9.2rem;
-    background-color: #fff;
-    border: 1px solid #3b3737;
+    background-color: var(--white);
+    border: 1px solid var(--collabLay);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -491,7 +516,7 @@ body{
 }
 
 .endbar-divider{
-    background-color: #8d8888;
+    background-color: var(--endbarDiv);
     height: 1.2rem;
 }
 
@@ -502,7 +527,7 @@ body{
 .useful-links{
     height: 40rem;
     width: 44rem;
-    background-color: #3e3c3c;
+    background-color: var(--darkbrown);
     padding: 4rem 9rem;
     box-sizing: border-box;
 }
@@ -510,7 +535,7 @@ body{
 .web-info{
     height: 40rem;
     width: 44rem;
-    background-color: #615656;
+    background-color: var(--webInfo);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -520,15 +545,15 @@ body{
 .Social-media{
     height: 40rem;
     width: 43.9rem;
-    background-color: #3e3c3c;
+    background-color: var(--darkbrown);
     padding: 4rem 9rem;
     box-sizing: border-box;
 }
 
 .useful-links h1{
     font-size: 1.8rem;
-    color: #817d7d;
-    font-weight: 700;
+    color: var(--lightgrey);
+    font-weight: var(--bold);
 }
 
 .doub-underline{
@@ -539,68 +564,68 @@ body{
 .blue-ray{
     width: 2.7rem;
     height: .2rem;
-    background-color: #337ab7;
+    background-color: var(--blueMain);
     margin: 0 .1rem 0 0;
 }
 
 .gray-ray{
     width: 5.7rem;
     height: .2rem;
-    background-color: #827e7e;
+    background-color: var(--whiteGray);
 }
 
 .useful-links a{
     font-size: 1.4rem;
-    color: #d4d1d1;
-    font-weight: 500;
+    color: var(--whiteHead);
+    font-weight: var(--semibold);
     text-decoration: none;
 }
 
 .white-ray{
     width: 25rem;
     height: .1rem;
-    background-color: #827e7e;
+    background-color: var(--whiteGray);
     margin: .2rem 0 1rem;
 }
 
 .Social-media h1{
     font-size: 1.8rem;
-    color: #337ab7;
-    font-weight: 700;
+    color: var(--blueMain);
+    font-weight: var(--bold);
 }
 
 .Social-media a{
     font-size: 1.4rem;
-    color: #d4d1d1;
-    font-weight: 500;
+    color: var(--whiteHead);
+    font-weight: var(--semibold);
     text-decoration: none;
 }
 
 .useful-links a:hover{
-    color: #337ab7;
+    color: var(--blueMain);
 }
 
 .Social-media a:hover{
-    color: #337ab7;
+    color: var(--blueMain);
 }
 
 .web-info h1{
     font-size: 1.8rem;
-    color: #817d7d;
-    font-weight: 700;
+    color: var(--lightgrey);
+    font-weight: var(--bold);
     margin: 4rem 0 0 0;
 }
 
 .gray-ray2{
     width: 20rem;
     height: .2rem;
-    background-color: #827e7e;
+    background-color: var(--whiteGray);
 }
 
 .web-info h2{
     font-size: 1.2rem;
-    color: #d4d1d1;
-    font-weight: 500;
+    color: var(--whiteHead);
+    font-weight: var(--semibold);
     text-align: center;
     margin: 0 0 1rem 0;
 }
@@ -608,8 +633,8 @@ body{
 .web-info h3{
     width: 20rem;
     font-size: 1.2rem;
-    color: #d4d1d1;
-    font-weight: 500;
+    color: var(--whiteHead);
+    font-weight: var(--semibold);
     text-align: center;
     margin: .5rem 0;
     text-align: left;
@@ -620,15 +645,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1c1c1c;
+    background-color: var(--endbarL);
 }
 
 .endbar-license h1{
     width: 110rem;
     text-align: center;
     font-size: 1.1rem;
-    color: #fff;
-    font-weight: 400;
+    color: var(--white);
+    font-weight: var(--normal);
     margin: 1.5rem 0 1rem 0;
     line-height: 1.4rem;
 }
@@ -636,8 +661,8 @@ body{
 
 .endbar-license h2{
     font-size: 1.1rem;
-    color: #fff;
-    font-weight: 400;
+    color: var(--white);
+    font-weight: var(--normal);
     margin: 0 0 1rem 0;
 }
 
@@ -646,7 +671,7 @@ body{
 }
 
 span{
-    color: #000;
+    color: var(--black);
     font-size: 1.8rem;
     font-weight: bolder;
     cursor: pointer;
@@ -693,15 +718,15 @@ span{
     
     .whats-new h2 {
         font-size: 1.3rem;
-        color: #5b5b5b;
-        font-weight: 600;
+        color: var(--fontGrey);
+        font-weight: var(--almBold);
         margin: auto 0 auto 3rem;
     }
     
     .blue-box h2 {
         font-size: 2.4rem;
         margin: 2rem 0 0 0;
-        color: #fff;
+        color: var(--white);
     }
 
     .blue-line1 {
@@ -711,8 +736,8 @@ span{
 
     .AboutDigi-head h1 {
         font-size: 2.8rem;
-        color: #337ab7;
-        font-weight: 600;
+        color: var(--blueMain);
+        font-weight: var(--almBold);
         margin: .5rem 0 0 0;
     }
 
@@ -1035,7 +1060,7 @@ span{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #6d97be;
+        background-color: var(--nevbarRespo);
     }
 
     .web-logo {
@@ -1044,7 +1069,7 @@ span{
     }
     
     .navBar ul {
-        background-color: #cec9cb;
+        background-color: var(--nevbarUL);
         flex-direction: column;
         border-radius: 2rem;
         padding: 0 5rem 1.5rem 5rem;
@@ -1059,7 +1084,7 @@ span{
 
     .navBar ul li a {
         font-size: 1.2rem;
-        font-weight: 700;
+        font-weight: var(--bold);
     }
 
     .menu-btn{
