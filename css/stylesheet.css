@@ -32,7 +32,7 @@ body{
     --whiteHead: #d4d1d1;
     --endbarL: #1c1c1c;
     --black: #000;
-    --nevbarRespo: #6d97be;
+    --nevbarRespo: #e5e1e1;
     --nevbarUL: #cec9cb;
 
     --normal: 400;
@@ -1125,8 +1125,14 @@ span{
         font-size: 2.4rem;
     }
 
+    .box-layout h2 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin: .5rem 0 0 0;
+    }
+
     .AboutDigi-head h2 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         width: 85%;
         margin: 2rem 0;
         line-height: 1.6rem;
@@ -1150,7 +1156,7 @@ span{
     }
 
     .box-layout {
-        margin: 1.5rem auto;
+        margin: 1rem auto;
     }
 
     .aboutD-mac{
@@ -1254,5 +1260,8 @@ span{
         line-height: 1.4rem;
     }
 
+    .banner-pic img {
+       height: 16rem;
+    }
 
 }
