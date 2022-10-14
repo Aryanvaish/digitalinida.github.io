@@ -158,6 +158,11 @@ body{
     scale: .9;
 }
 
+.banner-pic {
+    display: flex;
+}
+
+
 .banner-pic img{
     width: 100%;
 }
@@ -679,6 +684,36 @@ span{
     left: 85%;
     top: 3.5%;
 }
+
+.slick-next, .slick-prev{
+    width: 2.6rem;
+    height: 2.5rem;
+    background-color: #9156d4;
+    color: #3b361c; 
+    border-radius: 50%;  
+}
+
+.slick-prev{
+    left: 0;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 0;
+    z-index: 1;
+}
+
+.slick-next:hover{
+    background-color: #998a58;
+    color: #776922;  
+}
+
+.slick-prev:hover{
+    background-color: #998a58;
+    color: #776922;
+}
+
+
 
 @media (max-width : 1280px){
     .contrast h2 {
