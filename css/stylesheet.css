@@ -134,7 +134,9 @@ body{
 
 .navBar ul li{
     list-style: none;
-    margin: 3.3rem 3.4rem 0 3.4rem;
+    margin: 1rem 3.4rem 0 3.4rem;
+    display: flex;
+    align-items: center;
 }
 
 .navBar ul li a{
@@ -161,7 +163,6 @@ body{
 .banner-pic {
     display: flex;
 }
-
 
 .banner-pic img{
     width: 100%;
@@ -712,6 +713,115 @@ span{
     background-color: #998a58;
     color: #776922;
 }
+
+.caret{
+    width: 3rem;
+	height: 2rem;
+    background-position: -45px -855px;
+    scale: .4;
+}
+
+.w-caret{
+    width: 3rem;
+	height: 2rem;
+    background-position: -135px -854px;
+    scale: .4;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: var(--blueMain);
+    z-index: 1;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.dropdown-menu ul{
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 3.8rem;
+}
+
+.dropdown-menu ul li {
+    margin: 1rem 0;
+}
+
+.dropdown-menu ul li a{
+    color: var(--white);
+    text-align: center;
+}
+
+.dropdown-menu ul li a:hover{
+    color: var(--endbarL);
+}
+
+.dropmenu1{
+    left: 30%;
+    top: 17.6%;
+}
+
+.dropmenu2{
+    position: absolute;
+    left: 64%;
+    top: 17.6%;
+}
+
+.drop3menu1{
+    position: absolute;
+    left: 95%;
+    top: 22%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop3menu2{
+    position: absolute;
+    left: 95%;
+    top: 40%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop3menu3{
+    position: absolute;
+    left: 95%;
+    top: 58%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop3menu4{
+    position: absolute;
+    left: 95%;
+    top: 77%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop4menu1{
+    position: absolute;
+    left: 95%;
+    top: 83%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop5menu1{
+    position: absolute;
+    left: 95%;
+    top: 48%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop5menu2{
+    position: absolute;
+    left: 95%;
+    top: 60%;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.drop4menu1 ul {
+    padding: 1.5rem 1rem;
+}
+
+.drop4menu1 ul li {
+    margin: 1rem 3rem;
+}  
 
 
 
@@ -1299,4 +1409,22 @@ span{
        height: 16rem;
     }
 
+    .caret {
+        display: none; 
+    }
+
+    .navBar ul{
+        align-items: center;
+        text-align: center;
+    }
+
+    .slick-next, .slick-prev{
+        width: 2.6rem;
+        height: 2.5rem;
+        background-color: #756386;
+        color: #3b361c; 
+        border-radius: 50%;  
+    }
+
+    
 }
